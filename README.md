@@ -1,5 +1,15 @@
 # DailyCoding
 
+## Exercise 001 XYZ there + Unit test
+Return True
+if the given string contains an appearance of "xyz"
+where the xyz is not directly preceeded by a period (.).
+So "xxyz" counts but "x.xyz" does not.
+
+xyz_there('abcxyz') → True
+xyz_there('abc.xyz') → False
+xyz_there('xyz.abc') → True
+
 ## Exercise00 NoTeenSum + Unit Test
 Given 3 int values, a b c, return their sum.
 However, if any of the values is a teen
